@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="background" x1="60" y1="40" x2="1130" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21130F"/>
+      <stop offset="1" stop-color="#0D0D0F"/>
+    </linearGradient>
+    <linearGradient id="route" x1="310" y1="600" x2="890" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A35"/>
+      <stop offset="1" stop-color="#FF4F0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#background)"/>
+  <g stroke="#FFFFFF" stroke-opacity=".07" stroke-width="1">
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200M0 600H1200M100 0V750M200 0V750M300 0V750M400 0V750M500 0V750M600 0V750M700 0V750M800 0V750M900 0V750M1000 0V750M1100 0V750"/>
+  </g>
+  <g fill="#242326" stroke="#484247" stroke-width="2">
+    <rect x="105" y="162" width="216" height="116" rx="14"/>
+    <rect x="410" y="116" width="188" height="132" rx="14"/>
+    <rect x="790" y="114" width="258" height="126" rx="14"/>
+    <rect x="134" y="421" width="248" height="142" rx="14"/>
+    <rect x="496" y="454" width="200" height="122" rx="14"/>
+    <rect x="856" y="398" width="222" height="150" rx="14"/>
+  </g>
+  <g fill="#A5A0A4" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="middle">
+    <text x="213" y="225">ACADEMIC BLOCK</text>
+    <text x="504" y="190">LIBRARY</text>
+    <text x="919" y="185">STUDENT CENTER</text>
+    <text x="258" y="498">CAMPUS SERVICES</text>
+    <text x="596" y="523">MAIN GATE</text>
+    <text x="967" y="478">LECTURE HALL</text>
+  </g>
+  <path d="M260 351C352 351 369 293 476 293H716C818 293 801 344 936 344V335M260 351V421M716 293C716 377 596 372 596 454" stroke="url(#route)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 19"/>
+  <g fill="#FF4F0B">
+    <circle cx="260" cy="351" r="13"/>
+    <circle cx="936" cy="344" r="13"/>
+    <circle cx="596" cy="454" r="13"/>
+  </g>
+  <circle cx="716" cy="293" r="44" fill="#FF4F0B" fill-opacity=".14"/>
+  <circle cx="716" cy="293" r="27" fill="#FF4F0B"/>
+  <path d="M716 274C706.1 274 698 282.1 698 292c0 13 18 31 18 31s18-18 18-31c0-9.9-8.1-18-18-18Zm0 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z" fill="#fff"/>
+  <rect x="74" y="54" width="388" height="52" rx="26" fill="#FF4F0B" fill-opacity=".13" stroke="#FF4F0B" stroke-opacity=".45"/>
+  <circle cx="101" cy="80" r="6" fill="#FF6A2A"/>
+  <text x="121" y="86" fill="#FFE4D9" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">DEBRE TABOR UNIVERSITY</text>
+  <text x="76" y="674" fill="#F5F5F5" font-family="Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-1">Campus Navigation</text>
+  <text x="77" y="707" fill="#A5A5AA" font-family="Arial, sans-serif" font-size="16">A web-based university campus wayfinding project</text>
+</svg>

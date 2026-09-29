@@ -1,0 +1,136 @@
+/* ================================================
+   src/sections/Skills.css
+   ================================================ */
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.skills-subtitle {
+  max-width: 600px;
+  margin: 16px auto 0;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.skill-category {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(45, 24, 16, 0.08);
+  border-color: var(--primary);
+}
+
+.skill-category-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.skill-icon {
+  min-width: 42px;
+  height: 38px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 7px;
+  border: 1px solid rgba(255, 79, 11, 0.35);
+  border-radius: 7px;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+}
+
+.skill-category-title {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.skill-name {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.skill-level {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Level colors */
+.level-advanced {
+  background: rgba(85, 199, 138, 0.14);
+  color: #7bdfa8;
+}
+
+.level-intermediate {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.level-familiar {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+.level-specialized {
+  background: rgba(255, 79, 11, 0.18);
+  color: var(--primary);
+}
+
+.level-worked-with {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+.level-project-experience {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-header {
+    margin-bottom: 40px;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

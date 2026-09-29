@@ -1,0 +1,97 @@
+/* ================================================
+   src/ui/Button.css
+   ================================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+/* Sizes */
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+
+.btn-medium {
+  padding: 12px 24px;
+  font-size: 0.95rem;
+}
+
+.btn-large {
+  padding: 16px 26px;
+  font-size: 1.05rem;
+}
+
+/* Full width */
+.btn-full {
+  width: 100%;
+}
+
+/* Primary */
+.btn-primary {
+  background: var(--primary, #2d7d46);
+  color: white;
+  border-color: var(--primary, #2d7d46);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--primary-dark, #1f5c32);
+  border-color: var(--primary-dark, #1f5c32);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 79, 11, 0.24);
+}
+
+/* Secondary */
+.btn-secondary {
+  background: var(--bg-secondary, white);
+  color: var(--text-primary, #2d1810);
+  border-color: var(--border-color, #e0d6cc);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--primary, #2d7d46);
+  color: var(--primary, #2d7d46);
+}
+
+/* Ghost */
+.btn-ghost {
+  background: transparent;
+  color: var(--text-primary, #2d1810);
+  border-color: transparent;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--bg-tertiary);
+}
+
+/* Outline */
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.btn-outline:hover:not(:disabled) {
+  background: var(--primary, #2d7d46);
+  color: white;
+  border-color: var(--primary, #2d7d46);
+}
+
+/* Disabled */
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
